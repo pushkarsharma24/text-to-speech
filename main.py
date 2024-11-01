@@ -2,8 +2,7 @@ import openai
 from elevenlabs import generate, play, set_api_key, get_voices
 
 # Set your API keys here
-openai.api_key = "sk-proj-5MtJNwQ9l9lZDTsew4rMT3BlbkFJLy7GOWix6YztDmhTgEJX"
-elevenlabs_api_key = "4f215a4c3e4731e0a73e4ac5d19490fa"
+
 
 # Set up ElevenLabs API
 set_api_key(elevenlabs_api_key)
